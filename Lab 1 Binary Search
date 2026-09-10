@@ -1,1 +1,28 @@
-// Leetcode Assignment belowww
+// Alhaji Sulimani - Binary Search Lab 1
+
+class Solution {
+public int search(int[] nums, int target) {
+        // Initialize low and high index values 
+        int low = 0;
+        int high = nums.length - 1;
+
+        while(low <= high) {
+            int mid = (low + high) / 2;
+
+            // Middle is the target
+            if (target == nums[mid]){
+                return mid;
+            }
+            // Middle is lower then the target, so we must cut off the right (higher) side
+            else if (target > nums[mid]) {
+                low = mid + 1;
+            }
+            // Middle is higher then the target, so we must cut off the left (lower) side
+            else {
+                high = mid - 1;
+            }
+        }
+        // Target doesnt exist on the list
+        return -1;
+    }
+}
