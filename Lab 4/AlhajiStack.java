@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class AJStack {
+public class AlhajiStack {
     
     public static void main(String[] args) {
         Stack <String> heroes = new Stack<>();
