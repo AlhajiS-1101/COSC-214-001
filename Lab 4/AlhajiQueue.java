@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class AJQueue {
+public class AlhajiQueue {
     
     public static void main(String[] args) {
         Deque<String> students = new ArrayDeque<>();
