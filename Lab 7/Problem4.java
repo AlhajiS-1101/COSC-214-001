@@ -24,6 +24,8 @@ public class Problem4 {
             }
             System.out.println("Final: " + maxK);
         }
-        
+
+        // Time Complexity: O(nlogn)
+        // Space Complexity: O(n)
     }
 }
