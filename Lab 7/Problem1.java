@@ -12,6 +12,9 @@ public class Problem1 {
         }
 
         System.out.println("Final: " + minHeap);
+
+        // Time Complexity: O(nlogn)
+        // Space Complexity: O(n)
         
     }
 }
