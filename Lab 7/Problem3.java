@@ -26,6 +26,8 @@ public class Problem3 {
             }
             System.out.println("Final: " + findK);
         }
-        
+
+        // Time Complexity: O(nlogn)
+        // Space Complexity O(n)
     }
 }
