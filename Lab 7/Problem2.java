@@ -15,6 +15,9 @@ public class Problem2 {
         
         thing = maxHeap.peek();
         System.out.printf("Max Value: %d", thing);
-        
+
+        // Time Complexity: O(nlogn)
+        // Space Complexity: O(n)
+
     }
 }
